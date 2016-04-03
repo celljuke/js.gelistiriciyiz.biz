@@ -8,7 +8,8 @@ site:
   cover_image: "cover.png"
   social:
     twitter: "js_tips_tr"
-    # facebook: ""
+    google_analytics: "UA-6463685-44"
+    disqus: "jsgelistiriciyizbiz"
   company:
     name: "Geliştiriciyiz.biz"
     url: "http://gelistiriciyiz.biz/"
