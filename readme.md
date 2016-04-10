@@ -2,7 +2,7 @@
 
 [http://js.gelistiriciyiz.biz][1] sitesinin
 kaynak kodu. [webBox.io’nun][2] [Middleman][3] template / statik
-sayfa üreticisi çatısı üzerine üzerine [jekyll-incorporated][4]
+sayfa üreticisi çatısı üzerine [jekyll-incorporated][4]
 temasının modifiyesi ile yapılmıştır.
 
 
