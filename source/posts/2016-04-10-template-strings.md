@@ -1,0 +1,76 @@
+---
+title: "Template Strings"
+date: Apr 10, 2016 21:05
+tags: ecmascript6, es6, backtick
+# subtitle: 
+published: true
+# cover: 
+author:
+  name: "V. Mahir Yılmaz"
+  email: "mahir@vedatmahir.com"
+  link: "www.vedatmahir.com"
+  bio: "Yazılım Geliştirici"
+---
+ES6 ile beraber Javascript dünyasına template string'ler de girmiş oldu.
+
+Peki Template String'lerin Klasik ve Double String'lerden ne farkı var?READ_MORE
+
+* **Çoklu satırlarla çalışırken newline (_\n_) ifadesine ve/veya string'leri birleştirmek için  _+_ operatörüne ihtiyaç duymazsınız.**
+
+_Eski Yöntem:_
+
+```js
+var sheldonQuotes = "Bazinga Punk!\n" +
+                    "Now we are even.";
+
+console.log(sheldonQuotes);
+// Bazinga Punk!
+// Now we're even
+```
+
+_Yeni Yöntem:_
+
+```js
+var sheldonQuotes = `Bazinga Punk!
+Now we are even.`;
+
+console.log(sheldonQuotes);
+// Bazinga Punk!
+// Now we're even
+```
+
+
+
+* __${} ifadesini kullaranak basit javascript ifadeleri yazabilirsiniz.__
+
+_Eski Yöntem:_
+
+```js
+var isim    = "Vedat Mahir",
+    soyisim = "Yılmaz";
+
+console.log("Merhaba Dünya! Ben " + isim + " " + soyisim + "!");
+// Merhaba Dünya! Ben Vedat Mahir Yılmaz!
+
+var a = 1,
+    b = 2;
+
+console.log("Toplam = " + (a + b))
+// Toplam = 3
+```
+
+_Yeni Yöntem:_
+
+```js
+let isim    = "Vedat Mahir",
+    soyisim = "Yılmaz";
+
+console.log(`Merhaba Dünya! Ben ${isim} ${soyisim}!`)
+// Merhaba Dünya! Ben Vedat Mahir Yılmaz!
+
+let a = 1,
+    b = 2;
+
+console.log(`Toplam = ${a + b}`)
+// Toplam = 3
+```
