@@ -1,6 +1,6 @@
 ---
 title: "Template Strings"
-date: Apr 10, 2016 21:05
+date: Apr 11, 2016 11:05
 tags: ecmascript6,es6,backtick
 author:
   name: "V. Mahir Yılmaz"
