@@ -1,23 +1,20 @@
 ---
 title: "Template Strings"
 date: Apr 10, 2016 21:05
-tags: ecmascript6, es6, backtick
-# subtitle: 
-published: true
-# cover: 
+tags: ecmascript6,es6,backtick
 author:
   name: "V. Mahir Yılmaz"
   email: "mahir@vedatmahir.com"
   link: "www.vedatmahir.com"
   bio: "Yazılım Geliştirici"
 ---
-ES6 ile beraber Javascript dünyasına template string'ler de girmiş oldu.
+ES6 ile beraber Javascript dünyasına **template string**’ler de girmiş oldu. Peki 
+Template String’lerin Klasik ve Double String’lerden ne farkı var?READ_MORE
 
-Peki Template String'lerin Klasik ve Double String'lerden ne farkı var?READ_MORE
+## Çoklu satırlarla çalışırken newline (`\n`) ifadesine ve/veya string'leri birleştirmek 
+için  `+` operatörüne ihtiyaç duymazsınız.
 
-* **Çoklu satırlarla çalışırken newline (_\n_) ifadesine ve/veya string'leri birleştirmek için  _+_ operatörüne ihtiyaç duymazsınız.**
-
-_Eski Yöntem:_
+**Eski Yöntem**:
 
 ```js
 var sheldonQuotes = "Bazinga Punk!\n" +
@@ -28,7 +25,7 @@ console.log(sheldonQuotes);
 // Now we're even
 ```
 
-_Yeni Yöntem:_
+**Yeni Yöntem**:
 
 ```js
 var sheldonQuotes = `Bazinga Punk!
@@ -41,9 +38,9 @@ console.log(sheldonQuotes);
 
 
 
-* __${} ifadesini kullaranak basit javascript ifadeleri yazabilirsiniz.__
+## `${}` ifadesini kullanarak basit Javascript ifadeleri yazabilirsiniz.
 
-_Eski Yöntem:_
+**Eski Yöntem**:
 
 ```js
 var isim    = "Vedat Mahir",
@@ -59,7 +56,7 @@ console.log("Toplam = " + (a + b))
 // Toplam = 3
 ```
 
-_Yeni Yöntem:_
+**Yeni Yöntem**:
 
 ```js
 let isim    = "Vedat Mahir",
