@@ -11,11 +11,11 @@ author:
   link: "www.vedatmahir.com"
   bio: "Yazılım Geliştirici"
 ---
-ES6 ile beraber Javascript dünyasına template stringsler de girmiş oldu.
+ES6 ile beraber Javascript dünyasına template string'ler de girmiş oldu.
 
-Peki Template Stringlerin Klasik ve Double Stringslerden ne farkı var?READ_MORE
+Peki Template String'lerin Klasik ve Double String'lerden ne farkı var?READ_MORE
 
-* **Çoklu satırlarla çalışırken newline (_\n_) ifadesine ve/veya stringleri birleştirmek için  _+_ operatörüne ihtiyaç duymazsınız.**
+* **Çoklu satırlarla çalışırken newline (_\n_) ifadesine ve/veya string'leri birleştirmek için  _+_ operatörüne ihtiyaç duymazsınız.**
 
 _Eski Yöntem:_
 
