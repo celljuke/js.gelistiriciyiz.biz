@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JavaScript Püf Noktaları</title>
+  <subtitle>JavaScript ile ilgili Türkçe püf noktaları</subtitle>
+  <id>http://js.gelistiriciyiz.biz</id>
+  <link href="http://js.gelistiriciyiz.biz"/>
+  <link href="http://js.gelistiriciyiz.biz/feed.xml" rel="self"/>
+  <updated>2016-08-29T00:01:00+03:00</updated>
+  <author>
+    <name>Uğur Özyılmazel</name>
+  </author>
+  <entry>
+    <title>ternary operatör</title>
+    <link rel="alternate" href="http://js.gelistiriciyiz.biz/2016/08/29/ternary-operator/"/>
+    <id>http://js.gelistiriciyiz.biz/2016/08/29/ternary-operator/</id>
+    <published>2016-08-29T00:01:00+03:00</published>
+    <updated>2016-12-28T11:29:03+03:00</updated>
+    <author>
+      <name>V. Mahir Yılmaz</name>
+    </author>
+    <summary type="html">&lt;p&gt;Ternary operator (&lt;code&gt;?:&lt;/code&gt;) ile basit koşullu ifadeler yazabiliriz.&lt;/p&gt;
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="nx"&gt;condition&lt;/span&gt; &lt;span class="p"&gt;?&lt;/span&gt; &lt;span class="nx"&gt;value1&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;value2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>sort metodu</title>
+    <link rel="alternate" href="http://js.gelistiriciyiz.biz/2016/04/26/sort-metodu/"/>
+    <id>http://js.gelistiriciyiz.biz/2016/04/26/sort-metodu/</id>
+    <published>2016-04-26T14:29:00+03:00</published>
+    <updated>2016-12-28T11:29:07+03:00</updated>
+    <author>
+      <name>V. Mahir Yılmaz</name>
+    </author>
+    <summary type="html">&lt;p&gt;Bir diziyi sıralamak için &lt;code&gt;sort()&lt;/code&gt; metodunu kullanırız.&lt;/p&gt;
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;arr&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;"kivi"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"elma"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"armut"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"muz"&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+&lt;span class="nx"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;sort&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt; &lt;span class="c1"&gt;// ["armut", "elma", "kivi", "muz"]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+  </entry>
+  <entry>
+    <title>typeof operatörü</title>
+    <link rel="alternate" href="http://js.gelistiriciyiz.biz/2016/04/20/typeof-operatoru/"/>
+    <id>http://js.gelistiriciyiz.biz/2016/04/20/typeof-operatoru/</id>
+    <published>2016-04-20T09:36:00+03:00</published>
+    <updated>2016-12-28T11:29:11+03:00</updated>
+    <author>
+      <name>V. Mahir Yılmaz</name>
+    </author>
+    <summary type="html">&lt;p&gt;Belirttiğimiz ifadenin veri tipini bulabilmek için &lt;code&gt;typeof&lt;/code&gt; operatörünü 
+kullanıyoruz.&lt;/p&gt;
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;sayi&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;yazi&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"Geliştiriciyiz.biz"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="nx"&gt;nesne&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{};&lt;/span&gt;
+&lt;span class="k"&gt;typeof&lt;/span&gt; &lt;span class="nx"&gt;sayi&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;   &lt;span class="c1"&gt;// "number"&lt;/span&gt;
+&lt;span class="k"&gt;typeof&lt;/span&gt; &lt;span class="nx"&gt;yazi&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;   &lt;span class="c1"&gt;// "string"&lt;/span&gt;
+&lt;span class="k"&gt;typeof&lt;/span&gt; &lt;span class="nx"&gt;nesne&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;  &lt;span class="c1"&gt;// "object"&lt;/span&gt;
+&lt;span class="k"&gt;typeof&lt;/span&gt; &lt;span class="nx"&gt;Foo&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;    &lt;span class="c1"&gt;// "undefined"&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+  </entry>
+  <entry>
+    <title>Obje içinde özellik kontrolü: hasOwnProperty</title>
+    <link rel="alternate" href="http://js.gelistiriciyiz.biz/2016/04/20/obje-icinde-ozellik-kontrolu-hasownproperty/"/>
+    <id>http://js.gelistiriciyiz.biz/2016/04/20/obje-icinde-ozellik-kontrolu-hasownproperty/</id>
+    <published>2016-04-20T01:09:00+03:00</published>
+    <updated>2016-12-28T11:29:30+03:00</updated>
+    <author>
+      <name>V. Mahir Yılmaz</name>
+    </author>
+    <summary type="html">&lt;p&gt;Bir Javascript nesnesinin içinde belirttiğimiz isimde bir özelliğin olup 
+olmadığını bulmak için kullanacağımız fonksiyon: &lt;code&gt;hasOwnProperty&lt;/code&gt;.&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Template Strings</title>
+    <link rel="alternate" href="http://js.gelistiriciyiz.biz/2016/04/11/template-strings/"/>
+    <id>http://js.gelistiriciyiz.biz/2016/04/11/template-strings/</id>
+    <published>2016-04-11T11:05:00+03:00</published>
+    <updated>2016-12-28T11:29:35+03:00</updated>
+    <author>
+      <name>V. Mahir Yılmaz</name>
+    </author>
+    <summary type="html">&lt;p&gt;ES6 ile beraber Javascript dünyasına &lt;strong&gt;template string&lt;/strong&gt;’ler de girmiş oldu. Peki 
+Template String’lerin Klasik ve Double String’lerden ne farkı var?&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>npm'i hızlandırın</title>
+    <link rel="alternate" href="http://js.gelistiriciyiz.biz/2016/04/09/npmi-hizlandirin/"/>
+    <id>http://js.gelistiriciyiz.biz/2016/04/09/npmi-hizlandirin/</id>
+    <published>2016-04-09T13:42:00+03:00</published>
+    <updated>2016-05-28T18:42:52+03:00</updated>
+    <author>
+      <name>Uğur Özyılmazel</name>
+    </author>
+    <summary type="html">&lt;p&gt;Progress bar’ı iptal edin, paket kurulma hızını yükseltin :)&lt;/p&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;npm &lt;span class="nb"&gt;set &lt;/span&gt;&lt;span class="nv"&gt;progress&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nb"&gt;false
+&lt;/span&gt;npm install PAKET
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+  </entry>
+</feed>
