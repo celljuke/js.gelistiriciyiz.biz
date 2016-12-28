@@ -5,7 +5,7 @@ tags: core, operator
 author:
   name: "V. Mahir Yılmaz"
   email: "mahir@vedatmahir.com"
-  link: "www.vedatmahir.com"
+  link: "http://www.vedatmahir.com"
   bio: "Yazılım Geliştirici"
 ---
 Ternary operator (`?:`) ile basit koşullu ifadeler yazabiliriz.

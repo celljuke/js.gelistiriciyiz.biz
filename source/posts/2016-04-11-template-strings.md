@@ -5,7 +5,7 @@ tags: ecmascript6,es6,backtick
 author:
   name: "V. Mahir Yılmaz"
   email: "mahir@vedatmahir.com"
-  link: "www.vedatmahir.com"
+  link: "http://www.vedatmahir.com"
   bio: "Yazılım Geliştirici"
 ---
 ES6 ile beraber Javascript dünyasına **template string**’ler de girmiş oldu. Peki 

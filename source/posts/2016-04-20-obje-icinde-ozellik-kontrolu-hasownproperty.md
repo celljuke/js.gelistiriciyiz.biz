@@ -5,7 +5,7 @@ tags: es-3,es-5-1,es-2015
 author:
   name: "V. Mahir Yılmaz"
   email: "mahir@vedatmahir.com"
-  link: "www.vedatmahir.com"
+  link: "http://www.vedatmahir.com"
   bio: "Yazılım Geliştirici"
 ---
 Bir Javascript nesnesinin içinde belirttiğimiz isimde bir özelliğin olup 

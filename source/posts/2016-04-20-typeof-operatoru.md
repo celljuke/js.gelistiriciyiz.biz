@@ -5,7 +5,7 @@ tags: core
 author:
   name: "V. Mahir Yılmaz"
   email: "mahir@vedatmahir.com"
-  link: "www.vedatmahir.com"
+  link: "http://www.vedatmahir.com"
   bio: "Yazılım Geliştirici"
 ---
 Belirttiğimiz ifadenin veri tipini bulabilmek için `typeof` operatörünü 
